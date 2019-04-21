@@ -4,6 +4,8 @@
 library(shiny);library(datasets);library(dplyr)
 
 # Define UI 
+
+
 shinyUI(fluidPage(
   
   # title
@@ -18,6 +20,7 @@ shinyUI(fluidPage(
     ),
     
     mainPanel(
+      h5("You have to select what variable you want to test in the panel in the left. Below you can see the Regression results"),
       h4(textOutput("caption")),
       verbatimTextOutput("fit"),
       plotOutput("mpgPlot")
