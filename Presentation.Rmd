@@ -1,0 +1,29 @@
+---
+title: "WEEK_4_PRESENTATION"
+author: "Daiane Rodrigues"
+date: "21 de abril de 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Assigment week 4 
+
+This is an apresentation about a submission for the Course Developing Data Product. The app that I build use the data mtcars and make a regression model. The response variable is Miles Gallon(mpg). You can choose which variables you want to test.
+
+## Summary of the data set
+
+```{r cars, echo = TRUE}
+summary(mtcars)
+```
+
+## We want to predict Miles Gallon(mpg)
+
+```{r pressure}
+plot(mtcars$cyl,mtcars$mpg)
+```
+
+## APP 
+You can see the app here <https://daiane.shinyapps.io/Assigment_Week4/>.
