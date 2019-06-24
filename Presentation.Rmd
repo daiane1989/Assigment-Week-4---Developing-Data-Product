@@ -1,8 +1,10 @@
 ---
 title: "WEEK_4_PRESENTATION"
 author: "Daiane Rodrigues"
-date: "21 de abril de 2019"
-output: ioslides_presentation
+date: "23 de junho de 2019"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -11,9 +13,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Assigment week 4 
 
-This is an apresentation about a submission for the Course Developing Data Product. The app that I build use the data mtcars and make a regression model. The response variable is Miles Gallon(mpg). You can choose which variables you want to test.
+This is an apresentation about a submission for the Course Developing Data Product. 
+The app that I build use the data mtcars and make a regression model. The response variable is Miles Gallon(mpg). You can choose which variables you want to test to predict MPG, you just have to select the box "Select the predictors". 
 
 ## Summary of the data set
+Below You can see the summary of variables that you can use to predict MPG.  
 
 ```{r cars, echo = TRUE}
 summary(mtcars)
@@ -26,4 +30,8 @@ plot(mtcars$cyl,mtcars$mpg)
 ```
 
 ## APP 
-You can see the app here <https://daiane.shinyapps.io/Assigment_Week4/>.
+You can see the app here: <https://daiane.shinyapps.io/Assigment_Week4/>.
+
+And the Git Hub Repository here: <https://github.com/daiane1989/Assigment-Week-4---Developing-Data-Product/>.
+
+
